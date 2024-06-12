@@ -1,0 +1,18 @@
+mongodb:
+  username: root
+  password: example
+  docker:
+    address: mongo
+    port: 27017
+kafka:
+  docker:
+    broker-1:
+      address: kafka
+      port: 9092
+    topics:
+      input-head: input-head
+      weather-data: weather-data
+      satellite-data: satellite-data
+      vegetation-data: vegetation-data
+      processed-data: processed-data
+      fire-alerts: fire-alerts
